@@ -172,7 +172,17 @@
         </div>
     </div>
 
-    <div id="main-screen" style="background: radial-gradient(circle at top left, #2b2b2b 0%, #141414 100%) center;">
+    
+
+    <div id="slideshow">
+        <div class="progress-container"> <div class="progress-bar" id="pBar"></div> </div>
+        <div class="slide-header">
+            <span style="letter-spacing: 2px; font-weight: bold; color: var(--netflix-red);">SÉRIE ORIGINAL</span>
+            <button style="background:none; border:none; color:white; font-size:2rem; cursor:pointer;" onclick="closeSlides()">✖</button>
+        </div>
+        
+        <div class="slide-content">
+            <div class="slide active"><div class="slide-overlay"><h2>01. O Contexto</h2><div<div id="main-screen" style="background: radial-gradient(circle at top left, #2b2b2b 0%, #141414 100%) center;">
     <div class="hero-image-overlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:0; background: url('image_3.png') center/cover no-repeat; opacity: 0.7; mix-blend-mode: multiply; border-radius: 4px;"></div>
     
     <div class="hero-content" style="z-index:1; position:relative;">
@@ -185,17 +195,7 @@
         <button class="btn-play" onclick="openSlides()">▶ Assistir</button>
     </div>
 </div>
-
-
-    <div id="slideshow">
-        <div class="progress-container"> <div class="progress-bar" id="pBar"></div> </div>
-        <div class="slide-header">
-            <span style="letter-spacing: 2px; font-weight: bold; color: var(--netflix-red);">SÉRIE ORIGINAL</span>
-            <button style="background:none; border:none; color:white; font-size:2rem; cursor:pointer;" onclick="closeSlides()">✖</button>
-        </div>
-        
-        <div class="slide-content">
-            <div class="slide active"><div class="slide-overlay"><h2>01. O Contexto</h2><div class="content-box">Brasil, 1910. A Marinha era moderna, mas os marinheiros ainda eram punidos com chibatadas.</div></div></div>
+ class="content-box">Brasil, 1910. A Marinha era moderna, mas os marinheiros ainda eram punidos com chibatadas.</div></div></div>
             <div class="slide"><div class="slide-overlay"><h2>02. O Estopim</h2><div class="content-box">Marcelino Rodrigues recebeu 250 chibatadas diante de todos, causando a revolta imediata.</div></div></div>
             <div class="slide"><div class="slide-overlay"><h2>03. João Cândido</h2><div class="content-box">O "Almirante Negro" assumiu o comando dos navios revoltados com extrema disciplina.</div></div></div>
             <div class="slide"><div class="slide-overlay"><h2>04. A Ameaça</h2><div class="content-box">Os canhões dos maiores navios do Brasil foram apontados para o Rio de Janeiro.</div></div></div>
